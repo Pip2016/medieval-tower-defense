@@ -1,0 +1,44 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; but it can also be edited via text for scripting purposes.
+
+[application]
+
+config/name="Medieval Tower Defense"
+config/description="A medieval fantasy tower defense game with procedural level generation, optimized for Android."
+run/main_scene="res://scenes/MainMenu.tscn"
+config/features=PackedStringArray("4.2", "Mobile")
+config/icon="res://icon.png"
+
+[autoload]
+
+[display]
+
+window/size/viewport_width=1080
+window/size/viewport_height=1920
+window/size/mode=0
+window/size/resizable=true
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+
+[input]
+
+touch={
+"deadzone": 0.5,
+"events": []
+}
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.2, 0.3, 0.15, 1)
+
+[physics]
+
+common/enable_pause_aware_picking=true

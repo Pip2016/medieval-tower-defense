@@ -1,0 +1,21 @@
+# Godot 4+ specific ignores
+.godot/
+*.import
+
+# Exported builds
+*.apk
+*.aab
+*.ipa
+android/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Editor settings
+*.cfg.bak
+
+# Keystore files (security)
+*.keystore
+*.jks
