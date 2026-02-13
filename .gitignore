@@ -1,0 +1,26 @@
+# Godot 4+ ignores
+.godot/
+*.import
+
+# Builds
+*.apk
+*.aab
+*.ipa
+*.exe
+*.x86_64
+*.pck
+android/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Editor
+*.cfg.bak
+
+# Security
+*.keystore
+*.jks
+*.p12
